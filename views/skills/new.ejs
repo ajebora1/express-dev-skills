@@ -7,11 +7,12 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
   <body>
-    <h3><%= skill.skill %></h3>
-    <h3>Complete: <%= skill.done ? 'Yes' : 'No' %></h3>
-    <a href="/skills/<%=skill.id %>/edit">Edit Todos</a>
-    <br>
-    <br>
-    <a href="/skills">Back To Skills</a>
+    <h1>🎖New Dev Skills🎖</h1>
+    <form action="/skills" method="POST" autocomplete="off">
+        <input type="text" name="skill">
+        <button type="submit">Save devSkills</button>
+      </form>
   </body>
 </html>
+
+

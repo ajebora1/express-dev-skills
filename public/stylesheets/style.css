@@ -14,3 +14,20 @@ h1 {
 body {
   margin: auto;
 }
+
+.delete-form {
+  display: inline-block;
+  margin-right: 980px;
+}
+	
+.delete-form button {
+  color: red;
+}
+	
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 10px;
+}
+
